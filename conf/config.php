@@ -25,6 +25,7 @@ $Configuration['EnabledPlugins']['Quotes'] = false;
 $Configuration['EnabledPlugins']['rich-editor'] = true;
 $Configuration['EnabledPlugins']['Gravatar'] = false;
 $Configuration['EnabledPlugins']['vanillicon'] = true;
+$Configuration['EnabledPlugins']['pockets'] = false;
 
 // Garden
 $Configuration['Garden']['Title'] = 'OpenThink';
@@ -67,7 +68,7 @@ $Configuration['Garden']['MobileAddressBarColor'] = '';
 $Configuration['Garden']['ThemeOptions']['Styles']['Key'] = 'Default';
 $Configuration['Garden']['ThemeOptions']['Styles']['Value'] = '%s_default';
 $Configuration['Garden']['ThemeOptions']['Options']['panelToLeft'] = false;
-$Configuration['Garden']['Locale'] = 'ko';
+$Configuration['Garden']['Locale'] = 'en';
 $Configuration['Garden']['Theme'] = 'theme-boilerplate';
 
 // Plugins
@@ -103,7 +104,7 @@ $Configuration['Routes']['Y29udGFpbmVyLmh0bWw='] = array (
   1 => 'Internal',
 );
 $Configuration['Routes']['DefaultController'] = array (
-  0 => 'categories',
+  0 => 'discussions',
   1 => 'Internal',
 );
 
@@ -118,4 +119,4 @@ $Configuration['Vanilla']['Password']['SpamLock'] = 120;
 $Configuration['Vanilla']['Discussions']['Layout'] = 'modern';
 $Configuration['Vanilla']['Categories']['Layout'] = 'modern';
 
-// Last edited by obn (::1) 2020-02-10 13:12:55
+// Last edited by obn (::1) 2020-02-11 04:19:21
