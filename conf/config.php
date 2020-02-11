@@ -68,7 +68,7 @@ $Configuration['Garden']['MobileAddressBarColor'] = '';
 $Configuration['Garden']['ThemeOptions']['Styles']['Key'] = 'Default';
 $Configuration['Garden']['ThemeOptions']['Styles']['Value'] = '%s_default';
 $Configuration['Garden']['ThemeOptions']['Options']['panelToLeft'] = false;
-$Configuration['Garden']['Locale'] = 'en';
+$Configuration['Garden']['Locale'] = 'ko';
 $Configuration['Garden']['Theme'] = 'theme-boilerplate';
 
 // Plugins
@@ -119,4 +119,4 @@ $Configuration['Vanilla']['Password']['SpamLock'] = 120;
 $Configuration['Vanilla']['Discussions']['Layout'] = 'modern';
 $Configuration['Vanilla']['Categories']['Layout'] = 'modern';
 
-// Last edited by obn (::1) 2020-02-11 04:19:21
+// Last edited by obn (::1) 2020-02-11 08:08:39
